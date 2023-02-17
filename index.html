@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <!--Style Css-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Tipografia-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--HEADER-->
+    <header class="header">
+        <section class="container">
+            <div class="logo">
+                <a href="">Portafolio</a>
+            </div>
+            <button class="menu-btn">
+                <svg version="1.1" viewBox="0 0 24 24" width="36px" heigth="36px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Icon"><path d="M4,6.75l16,0c0.414,0 0.75,-0.336 0.75,-0.75c0,-0.414 -0.336,-0.75 -0.75,-0.75l-16,0c-0.414,0 -0.75,0.336 -0.75,0.75c0,0.414 0.336,0.75 0.75,0.75Z"/><path d="M4,12.75l16,0c0.414,0 0.75,-0.336 0.75,-0.75c0,-0.414 -0.336,-0.75 -0.75,-0.75l-16,0c-0.414,0 -0.75,0.336 -0.75,0.75c0,0.414 0.336,0.75 0.75,0.75Z"/>
+                    <path d="M4,18.75l16,0c0.414,0 0.75,-0.336 0.75,-0.75c0,-0.414 -0.336,-0.75 -0.75,-0.75l-16,0c-0.414,0 -0.75,0.336 -0.75,0.75c0,0.414 0.336,0.75 0.75,0.75Z"/></g>
+                </svg>
+                <svg class="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" heigth="36px" width="36px">
+                    <polygon points="427.314 107.313 404.686 84.687 256 233.373 107.314 84.687 84.686 107.313 233.373 256 84.686 404.687 107.314 427.313 256 278.627 404.686 427.313 427.314 404.687 278.627 256 427.314 107.313" class="ci-primary"/>
+                </svg>
+            </button>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="#conoceme">Conoceme</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </section>
+    </header>
+
+    <!--HOME-->
+    <section id="home" class="home">
+        <div class="hero-image" style="--hero-image: url(../img/backgroun.jpg)">
+            <aside class="hero-image-content">
+                <div class="hero-image-title" style="--hero-text-color: var(--white-color)">
+                    <h1>Ulises Ros</h1>
+                    <h2>Desarrollador Web Fullstack</h2>
+                </div>
+                <div class="redes">
+                    <a class="redes-img" href="https://github.com/UlisesRos" target="_blank"><img src="./img/github.png" alt="github"></a>
+                    <a class="redes-img" href="https://www.linkedin.com/in/ulises-ros/" target="_blank"><img src="./img/linkedin.png" alt="linkedin"></a>
+                    <a class="redes-img" href="https://www.instagram.com/ulisess12/" target="_blank"><img src="./img/instagram.png" alt="instagram"></a>
+                    <a class="redes-img" href="mailto:ulisesros70@gmail.com" target="_blank"><img src="./img/gmail.png" alt="gmail"></a>
+                    <a class="redes-img" href="https://www.facebook.com/ulises.newells.1" target="_blank"><img src="./img/facebook.png" alt="facebook"></a>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!--ABOUT-->
+    <section id="conoceme" class="about section container full-lg-screen">
+        <article class="text-center text-lg-right mb-2">
+            <h2>Sobre mi</h2>
+            <p>
+                Ulises Ros es una persona que aprende rapido, con muchas ganas de crecer en todos los ambitos de su vida. <br> <br>
+                Esta dispuesto a resignar cosas para lograr lo que quiere y empezar de cero si es necesario.
+            </p>
+            <a class="btn" href="#" target="_blank" rel="noopener">Descarga mi CV</a>
+        </article>
+        <article class="text-center mb-2">
+            <img class="grey-scale" src="./img/yo.jpeg" alt="ulises">
+        </article>
+        <article>
+            <h2 class="text-center text-lg-left mb-2">Mis Habilidades</h2>
+            <div class="progress">
+                <p>
+                    <b><i>HTML & CSS</i></b>
+                    <b>90%</b>
+                </p>
+                <progress value="90" min="0" max="100"></progress>
+            </div>
+            <div class="progress">
+                <p>
+                    <b><i>JavaScript</i></b>
+                    <b>85%</b>
+                </p>
+                <progress value="85" min="0" max="100"></progress>
+            </div>
+            <div class="progress">
+                <p>
+                    <b><i>React</i></b>
+                    <b>80%</b>
+                </p>
+                <progress value="80" min="0" max="100"></progress>
+            </div>
+            <div class="progress">
+                <p>
+                    <b><i>TypeScript</i></b>
+                    <b>75%</b>
+                </p>
+                <progress value="75" min="0" max="100"></progress>
+            </div>
+        </article>
+    </section>
+
+    <!--SERVICIOS-->
+    <section id="servicios" class="services section full-lg-screen">
+        <div class="container">
+            <h2 class="section-title">Mis Servicios</h2>
+            <article class="service-card">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                    <path stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M32.001,0.887c17.184,0,31.113,13.929,31.112,31.113
+                        C63.114,49.185,49.184,63.115,32,63.113C14.815,63.114,0.887,49.185,0.888,32.001C0.885,14.816,14.815,0.887,32.001,0.887z"/>
+                    <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="32" y1="1" x2="32" y2="63"/>
+                    <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="63" y1="32" x2="1" y2="32"/>
+                    <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M30,1c0,0-14,11-14,31s14,31,14,31"/>
+                    <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M34,1c0,0,14,11,14,31S34,63,34,63"/>
+                    <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M8,12c0,0,5,10,24,10s24-10,24-10"/>
+                    <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M8,52c0,0,5-10,24-10s24,10,24,10"/>
+                </svg>
+                <h3>Sitio <i>Estandar</i></h3>
+                <p>Desarrollo de una página web personalizada y adaptada a las características de tu empresa</p>
+            </article>
+
+            <article class="service-card">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><g id="Layer_67" data-name="Layer 67">
+                    <path d="M17.52,25.88a2.69,2.69,0,1,0,2.68,2.68A2.68,2.68,0,0,0,17.52,25.88Zm0,3.37a.69.69,0,0,1-.69-.69.68.68,0,0,1,.69-.68.67.67,0,0,1,.68.68A.68.68,0,0,1,17.52,29.25Z"/><path d="M61,16.48a12.13,12.13,0,0,0-24.26-.26A25.26,25.26,0,0,0,30,15.3a24.78,24.78,0,0,0-8.5,1.48l-8.13-6a1,1,0,0,0-1.16,0,1,1,0,0,0-.4,1.08L14.23,21A19,19,0,0,0,8.48,29.6H4a1,1,0,0,0-1,1.22l1.86,8.52a1,1,0,0,0,1,.79H8.47a20.05,20.05,0,0,0,9.7,11.33v7.2a1,1,0,0,0,1,1h4.11a1,1,0,0,0,.95-.69l1.59-4.88a25.2,25.2,0,0,0,8.37,0L35.77,59a1,1,0,0,0,.95.69h4.11a1,1,0,0,0,1-1v-7.2C48,48.08,52,42.18,52.33,35.78A5.64,5.64,0,0,0,57,30.22a1,1,0,0,0-2,0,3.63,3.63,0,0,1-2.68,3.5A17.29,17.29,0,0,0,51.1,28.4,12.14,12.14,0,0,0,61,16.48ZM48.86,6.34a10.14,10.14,0,1,1-6.12,18.21c-.2-.18-.42-.36-.63-.53A10.12,10.12,0,0,1,48.86,6.34Zm1.5,28.53c0,6.18-3.83,12-10,15.11a1,1,0,0,0-.52.75s0,.05,0,.14v6.79H37.45l-1.63-5a.2.2,0,0,0-.07-.12A1,1,0,0,0,34.66,52a23.58,23.58,0,0,1-9.32,0,1,1,0,0,0-1.16.67l-1.63,5H20.17V50.87a.24.24,0,0,0,0-.13,1,1,0,0,0-.52-.76,18.07,18.07,0,0,1-9.46-11.11,1,1,0,0,0-1-.74H6.66L5.24,31.6h4a1,1,0,0,0,1-.74A17.06,17.06,0,0,1,16,22.14a1.05,1.05,0,0,0,.33-1l-1.85-7,6.27,4.62a1,1,0,0,0,.49.17c.13.05.33,0,.46-.05A22.79,22.79,0,0,1,30,17.3a23.26,23.26,0,0,1,6.88,1,12.14,12.14,0,0,0,.93,3.14A19.79,19.79,0,0,0,32.1,20a1,1,0,1,0-.2,2,17.24,17.24,0,0,1,8.84,3.45c.25.22.51.44.78.65a12,12,0,0,1,4.1,7.32,1,1,0,0,0,1,.87h.13a1,1,0,0,0,.86-1.12,13,13,0,0,0-1.76-5,12.08,12.08,0,0,0,3,.4H49A15.31,15.31,0,0,1,50.36,34.87Z"/><path d="M48,17.48H49.7a1.15,1.15,0,0,1,1.18,1.11,1.08,1.08,0,0,1-.33.77,1.25,1.25,0,0,1-.85.34H46.51a1,1,0,0,0,0,2h1.35v1.4a1,1,0,1,0,2,0V21.68a3.22,3.22,0,0,0,2.08-.88,3.1,3.1,0,0,0-2.24-5.32H48a1.15,1.15,0,0,1-1.18-1.11,1.05,1.05,0,0,1,.34-.77,1.21,1.21,0,0,1,.84-.33h3.19a1,1,0,0,0,0-2H49.86V9.86a1,1,0,0,0-2,0v1.42a3.17,3.17,0,0,0-2.07.88,3.11,3.11,0,0,0-.95,2.21A3.15,3.15,0,0,0,48,17.48Z"/></g>
+                </svg>
+                <h3>Sitio <i>Economico</i></h3>
+                <p>Desarrollo de una página web rapida y economica</p>
+            </article>
+
+            <article class="service-card">
+                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+                width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                    <circle cx="43.333" cy="83.333" r="6.667"/>
+                    <circle cx="70" cy="83.333" r="6.667"/>
+                    <path d="M83.333,36.667V23.333H70V10H36.667v26.667h-7.101l-2.025-9.787C26.338,21.058,20.946,16.667,15,16.667h-5v6.667h5
+                        c2.75,0,5.456,2.204,6.012,4.896L30,71.667h43.333c5.502,0,10.844-4.421,11.872-9.824L90,36.667H83.333z M76.667,30v6.667h-20V30
+                        H76.667z M43.333,16.667h20v6.667H50v13.333h-6.667V16.667z M78.655,60.596C78.226,62.858,75.638,65,73.333,65V48.333h-5V65h-5
+                        V48.333h-5V65h-5V48.333h-5V65h-5V48.333h-5V65h-2.905l-4.482-21.667h50.998L78.655,60.596z"/>
+                </svg>
+                <h3>Sitio <i>E-Commerce</i></h3>
+                <p>Desarrollo de una página web E-commerce</p>
+            </article>
+
+            </article>
+            <article class="service-card">
+                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="100px" height="100px">
+                    <path d="M 20 3 C 18.355469 3 17 4.355469 17 6 L 17 9 L 3 9 C 1.355469 9 0 10.355469 0 12 L 0 26.8125 C -0.0078125 26.875 -0.0078125 26.9375 0 27 L 0 44 C 0 45.644531 1.355469 47 3 47 L 47 47 C 48.644531 47 50 45.644531 50 44 L 50 12 C 50 10.355469 48.644531 9 47 9 L 33 9 L 33 6 C 33 4.355469 31.644531 3 30 3 Z M 20 5 L 30 5 C 30.5625 5 31 5.4375 31 6 L 31 9 L 19 9 L 19 6 C 19 5.4375 19.4375 5 20 5 Z M 3 11 L 47 11 C 47.5625 11 48 11.4375 48 12 L 48 26.84375 C 48 26.875 48 26.90625 48 26.9375 L 48 27 C 48 27.5625 47.5625 28 47 28 L 3 28 C 2.4375 28 2 27.5625 2 27 C 2.007813 26.9375 2.007813 26.875 2 26.8125 L 2 12 C 2 11.4375 2.4375 11 3 11 Z M 25 22 C 23.894531 22 23 22.894531 23 24 C 23 25.105469 23.894531 26 25 26 C 26.105469 26 27 25.105469 27 24 C 27 22.894531 26.105469 22 25 22 Z M 2 29.8125 C 2.316406 29.925781 2.648438 30 3 30 L 47 30 C 47.351563 30 47.683594 29.925781 48 29.8125 L 48 44 C 48 44.5625 47.5625 45 47 45 L 3 45 C 2.4375 45 2 44.5625 2 44 Z"/>
+                </svg>
+                <h3>Sitio <i>Portafolio</i></h3>
+                <p>Desarrollo de un portafolio adaptado y personalizado a los gustos del cliente.</p>
+            </article>
+        </div>
+    </section>
+
+    <!--CLIENT-->
+    <section id="clientes" class="clients">
+        <div class="hero-image" style="--hero-image: url(../img/apreton-manos.png)">
+            <aside class="hero-image-opacity" style="--hero-opacity: var(--black-alpha-color)">
+                <div class="client-image-content">
+                    <div class="container">
+                        <h2 class="hero-title text-center">Testimonios</h2>
+                        <article class="carousel">
+                            <input type="radio" name="slides" id="slide-1" checked>
+                            <input type="radio" name="slides" id="slide-2">
+                            <input type="radio" name="slides" id="slide-3">
+                            <ul class="slides">
+                                <li class="slide">
+                                    <img class="avatar" src="./img/yo.jpeg" alt="cliente1">
+                                    <blockquote class="mb-2">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati amet sit, odio reprehenderit praesentium 
+                                        eos ut ad aut at! Deserunt odio perferendis dolor, repellat optio quidem quis molestiae laboriosam iure?
+                                    </blockquote>
+                                    <h3 class="text-second-color mb-2">Nombre del Cliente</h3>
+                                </li>
+                                <li class="slide">
+                                    <img class="avatar" src="./img/yo.jpeg" alt="cliente2">
+                                    <blockquote class="mb-2">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati amet sit, odio reprehenderit praesentium 
+                                        eos ut ad aut at! Deserunt odio perferendis dolor, repellat optio quidem quis molestiae laboriosam iure?
+                                    </blockquote>
+                                    <h3 class="text-second-color mb-2">Nombre del Cliente</h3>
+                                </li>
+                                <li class="slide">
+                                    <img class="avatar" src="./img/yo.jpeg" alt="cliente3">
+                                    <blockquote class="mb-2">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati amet sit, odio reprehenderit praesentium 
+                                        eos ut ad aut at! Deserunt odio perferendis dolor, repellat optio quidem quis molestiae laboriosam iure?
+                                    </blockquote>
+                                    <h3 class="text-second-color mb-2">Nombre del Cliente</h3>
+                                </li>
+                            </ul>
+                            <aside class="slides-nav">
+                                <label for="slide-1" id="circle-1"></label>
+                                <label for="slide-2" id="circle-2"></label>
+                                <label for="slide-3" id="circle-3"></label>
+                            </aside>
+                        </article>
+                    </div>  
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!--<section id="tecnologias">Tecnologias</section>-->
+
+    <!-- CONTACT -->
+    <section id="contacto">
+        <form class="contact-form" action="https://formsubmit.co/ulisesros70@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Ingresa tu nombre" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚú\s]+$" required>
+            <input type="email" name="email" placeholder="Ingresa tu email" title="Email incorrecto" pattern="^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$" required>
+            <textarea name="comments" cols="50" rows="10" placeholder="Dejanos tu comentario!" required></textarea>
+            <div class="contact-form-loader none">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: black; display: block; shape-rendering: auto;" width="50px" height="50px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+                    <circle cx="50" cy="50" fill="none" stroke="#93dbe9" stroke-width="10" r="35" stroke-dasharray="164.93361431346415 56.97787143782138">
+                    <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s" values="0 50 50;360 50 50" keyTimes="0;1"></animateTransform>
+                    </circle>
+                </svg>
+            </div>
+            <input type="submit" class="btn" value="ENVIAR">
+            <article id="gracias" class="modal">
+                <div class="modal-content">
+                    <article class="contact-form-response">
+                        <h3>¡Muchas gracias por tu comentario!</h3>
+                        <img src="./img/checkimg.webp" alt="check" height="80px">
+                    </article>
+                </div>
+            </article>
+        </form>
+    </section>
+
+    <footer></footer>
+
+    <script src="./js/navbar.js"></script>
+    <script src="./js/contact-form.js"></script>
+</body>
+</html>
